@@ -8,6 +8,9 @@ h2{
   font-size: 40px;
 }
 
+.txt-center{
+  text-align: center;
+}
 
 .colorName{
   color:salmon;
@@ -68,6 +71,15 @@ h2{
   background-size:cover;
 }
 
+.middle-part2{
+  background-image:url("../images/footer-bg.png");
+  
+
+  background-repeat:no-repeat ;
+  background-position:0px;
+  background-size:cover;
+}
+
 section{
   height:400px;
   
@@ -88,14 +100,15 @@ section{
   width: 100%;
 }
 
-.work-img-div{
+.work-img-div  {
   height:220px;
   width:27%;
   float: left;
   margin-left: 4%;
   box-shadow: 10px 10px 20px darkgrey;
 }
-  
+
+
 
 .work-img-div:hover{
   transform: translateY(-15px);
@@ -118,7 +131,7 @@ section{
   justify-content: center;
 }
 
-.txt-div ,.message-box{
+.txt-div{
   text-align: center;
 }
 
@@ -127,20 +140,51 @@ section{
   height:90px;
   width:40%;
   margin: 0 auto;
+  text-align: center;
   background:linear-gradient(90deg,#F83F9D,#EC0AA1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
   color: black;
   font-weight: 300;
   font-size: medium;
-  line-height: 20px;
 
   
 }
 
+.message-box {
+  padding:10px 20px;
+  margin:auto;
+}
+
+.exp-col{
+  height:220px;
+  width:27%;
+  float: left;
+  margin-left: 4%;
+  
+
+}
+
+#exp-sec{
+  height: 400px;
+  background-color:  #4c6d86;
+  color:#fff;
+  margin-top: 20px;
+}
+
+.exp-container li{
+  list-style-type: none;
+  
+
+
+}
+.exp-container ul{
+  text-align: center;
+}
+
 footer{
   text-align: center;
-  font-size: 15px;
-  color: gray;
+  font-size: 13px;
+  color:red;
+  clear: both;
+ margin-bottom: 10px;
 }
