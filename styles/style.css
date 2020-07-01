@@ -1,0 +1,134 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  font-size: 40px;
+}
+
+
+.colorName{
+  color:salmon;
+}
+
+.button{
+ display: inline-block;
+ padding: 12px 36px;
+ color: #fff;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 18px;
+ letter-spacing: 2px;
+ border-radius: 40px;
+ background:linear-gradient(90deg,#BE2E8E,#EC0AA1);
+ 
+}
+
+.half-width{
+  width: 40%;
+  float: left;
+  margin-left:5%;
+  padding-left: 2%;
+  height: 300px;
+  
+  
+}
+
+.half-width img{
+  width: 80%;
+  height: 100%;
+  margin-top: 5%;  
+}
+
+.top-part{
+  background-image:url("../images/header-bg.png");
+  
+
+  background-repeat:no-repeat ;
+  background-position:top;
+  background-size:cover;
+}
+
+.middle-part1{
+  background-image:url("../images/biography-bg.png");
+  
+
+  background-repeat:no-repeat ;
+  background-position:top;
+  background-size:cover;
+}
+
+section{
+  height:400px;
+  
+}
+
+.flx-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-part2{
+  height: 370px;
+}
+
+.work-img-div img{
+  height:100%;
+  width: 100%;
+}
+
+.work-img-div{
+  height:220px;
+  width:27%;
+  float: left;
+  margin-left: 4%;
+  box-shadow: 10px 10px 20px darkgrey;
+}
+  
+
+.work-img-div:hover{
+  transform: translateY(-15px);
+
+}
+
+
+.headCenter{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color:#6E6E6E;
+}
+
+.middle-sec-container{
+  height:350px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txt-div ,.message-box{
+  text-align: center;
+}
+
+
+.message-box{
+  height:90px;
+  width:40%;
+  margin: 0 auto;
+  background:linear-gradient(90deg,#F83F9D,#EC0AA1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+footer{
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+}
